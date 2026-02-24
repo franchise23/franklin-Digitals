@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chidera Franklin | Full-Stack Web Developer</title>
+    <meta
+      name="description"
+      content="Chidera Franklin — full-stack web developer building reliable, modern web applications for startups and growing teams."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="scroll-progress" aria-hidden="true"><span></span></div>
+      <header class="site-header">
+        <div class="logo">
+          <span class="logo-mark">CF</span>
+          <div>
+            <strong>Chidera Franklin</strong>
+            <span>Full-Stack Web Developer</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#work">Work</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact" class="nav-cta">Hire Me</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" data-animate>
+          <div class="hero-copy">
+            <p class="eyebrow">Franklin Digitals</p>
+            <h1>
+              I build trustworthy digital products that feel premium, perform
+              fast, and scale cleanly.
+            </h1>
+            <p class="lead">
+              Full-stack developer helping founders and growing teams ship
+              responsive web apps, dashboards, and secure back-end systems.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#work">View Work</a>
+              <a class="btn ghost" href="#contact">Contact Me</a>
+            </div>
+            <div class="hero-meta">
+              <span>Based in Nigeria</span>
+              <span>Open to remote + freelance</span>
+            </div>
+          </div>
+          <div class="hero-visual" data-animate>
+            <div class="photo-frame" data-parallax="0.08">
+              <img
+                class="hero-photo"
+                src="images/img 1.jpeg"
+                alt="Portrait of Chidera Franklin"
+              />
+            </div>
+            <div class="availability-card">
+              <p class="card-label">Available</p>
+              <h3>Project Starts: This Month</h3>
+              <p>
+                From product discovery to launch, I deliver clean code,
+                consistent updates, and reliable systems.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats" data-animate>
+          <div>
+            <h3 data-count="3" data-suffix="+">0</h3>
+            <p>Production-ready apps shipped</p>
+          </div>
+          <div>
+            <h3 data-count="5" data-suffix="+">0</h3>
+            <p>Modern stacks mastered</p>
+          </div>
+          <div>
+            <h3 data-count="100" data-suffix="%">0</h3>
+            <p>Client-first communication</p>
+          </div>
+        </section>
+
+        <section class="highlight" data-animate>
+          <p>
+            I design the full experience: strategy, UI, and engineering. Your
+            product gets a crisp interface, a reliable API, and a foundation your
+            team can confidently scale.
+          </p>
+        </section>
+
+        <section id="work" class="section" data-animate>
+          <div class="section-title">
+            <h2>Selected Work</h2>
+            <p>Real products with authentication, dashboards, and data flows.</p>
+          </div>
+          <div class="case-grid">
+            <article class="case-card" data-tilt>
+              <div class="case-top">
+                <h3>Merchant Analytics Dashboard</h3>
+                <span>Full-stack build</span>
+              </div>
+              <p>
+                Multi-tenant dashboard for tracking revenue, inventory, and
+                customer behavior with role-based access.
+              </p>
+              <div class="tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="case-actions">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+              </div>
+            </article>
+
+            <article class="case-card" data-tilt>
+              <div class="case-top">
+                <h3>Bookings & Payments Platform</h3>
+                <span>Product build</span>
+              </div>
+              <p>
+                End-to-end scheduling system with secure payments, automated
+                emails, and admin controls.
+              </p>
+              <div class="tags">
+                <span>Next.js</span>
+                <span>Stripe</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="case-actions">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+              </div>
+            </article>
+
+            <article class="case-card" data-tilt>
+              <div class="case-top">
+                <h3>Logistics Tracking Suite</h3>
+                <span>API + UI</span>
+              </div>
+              <p>
+                Real-time shipment tracking with event-driven updates and
+                customer notification flows.
+              </p>
+              <div class="tags">
+                <span>Vue</span>
+                <span>Express</span>
+                <span>Redis</span>
+              </div>
+              <div class="case-actions">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="gallery" class="section" data-animate>
+  <div class="section-title">
+    <h2>Design Gallery</h2>
+    <p>Selected UI shots and product visuals. Click to view.</p>
+  </div>
+  <div class="gallery-grid">
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-01.jpeg"
+    >
+      <img src="images/gallery-01.jpeg" alt="Commerce analytics dashboard" />
+      <span>Analytics Dashboard</span>
+      <p class="gallery-desc">Revenue KPIs, sales charts, and inventory insights.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-02.jpeg"
+    >
+      <img src="images/gallery-02.jpeg" alt="Ecommerce admin overview" />
+      <span>Ecommerce Admin</span>
+      <p class="gallery-desc">Operations dashboard with customer and sales trends.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-03.jpeg"
+    >
+      <img src="images/gallery-03.jpeg" alt="Hotel booking mobile flow" />
+      <span>Booking Flow</span>
+      <p class="gallery-desc">Mobile reservation journey with clear steps.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-04.jpeg"
+    >
+      <img src="images/gallery-04.jpeg" alt="Real estate mobile app screens" />
+      <span>Real Estate App</span>
+      <p class="gallery-desc">Property search, listings, and booking interface.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-05.jpeg"
+    >
+      <img src="images/gallery-05.jpeg" alt="Dark analytics dashboard" />
+      <span>Sales Command Center</span>
+      <p class="gallery-desc">Dark-mode reporting dashboard with deep analytics.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-06.jpeg"
+    >
+      <img src="images/gallery-06.jpeg" alt="Agency landing page" />
+      <span>Agency Landing Page</span>
+      <p class="gallery-desc">Marketing site with services, team, and stats.</p>
+    </button>
+    <button
+      class="gallery-item"
+      type="button"
+      data-full="images/gallery-07.jpeg"
+    >
+      <img src="images/gallery-07.jpeg" alt="Education admin dashboard" />
+      <span>Admin Suite</span>
+      <p class="gallery-desc">Education platform dashboard with data cards.</p>
+    </button>
+  </div>
+</section>
+
+        <section id="about" class="section about" data-animate>
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p>
+              Craft. Product. Discipline. I build dependable web platforms with
+              clean UX and resilient engineering.
+            </p>
+          </div>
+          <div class="about-grid">
+            <article class="about-card">
+              <h3>Design & Craft</h3>
+              <ul>
+                <li>Clarity-first interfaces that reduce friction.</li>
+                <li>Reusable UI systems that scale with your product.</li>
+                <li>Detail polish that earns user trust.</li>
+              </ul>
+            </article>
+            <article class="about-card">
+              <h3>Product & Delivery</h3>
+              <ul>
+                <li>Lean scope and fast iteration with weekly updates.</li>
+                <li>Authentication, dashboards, APIs, and data flows.</li>
+                <li>Launch-ready builds with documentation and handoff.</li>
+              </ul>
+            </article>
+            <article class="about-card">
+              <h3>Engineering Discipline</h3>
+              <ul>
+                <li>Secure, maintainable back-end architecture.</li>
+                <li>Performance-minded code and database choices.</li>
+                <li>Systems that your team can own long term.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="stack" data-animate>
+            <h3>Core Stack</h3>
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>Docker</span>
+            </div>
+            <h3>Also Comfortable With</h3>
+            <div class="tags">
+              <span>Next.js</span>
+              <span>Vue</span>
+              <span>Firebase</span>
+              <span>Stripe</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="section" data-animate>
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>Focused delivery across product, design, and engineering.</p>
+          </div>
+          <div class="service-grid">
+            <div class="service-card" data-tilt>
+              <h3>Product Strategy</h3>
+              <p>
+                Define scope, success metrics, and technical requirements to
+                ship the right product quickly.
+              </p>
+            </div>
+            <div class="service-card" data-tilt>
+              <h3>UI Systems</h3>
+              <p>
+                Polished interfaces, reusable components, and responsive layouts
+                that feel premium.
+              </p>
+            </div>
+            <div class="service-card" data-tilt>
+              <h3>Back-end Engineering</h3>
+              <p>
+                Secure APIs, databases, and integrations that keep the product
+                stable and scalable.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact" data-animate>
+          <div>
+            <h2>Let's Build Something Real</h2>
+            <p>
+              Ready to discuss a project, or want to see more work? Reach out
+              and I'll respond within 24 hours.
+            </p>
+          </div>
+          <div class="contact-card">
+            <p class="contact-label">Email</p>
+            <a href="mailto:chiderafranklin@email.com">
+              chiderafranklin@email.com
+            </a>
+            <p class="contact-label">Phone</p>
+            <a href="tel:+2349131204598">+234 913 120 4598</a>
+            <p class="contact-label">LinkedIn</p>
+            <a href="https://www.linkedin.com/">linkedin.com/in/chiderafranklin</a>
+            <p class="contact-label">GitHub</p>
+            <a href="https://github.com/franchise23">github.com/franchise23</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2024 Chidera Franklin. Franklin Digitals.</p>
+      </footer>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close">
+        Close
+      </button>
+      <img class="lightbox-image" alt="Expanded work sample" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
